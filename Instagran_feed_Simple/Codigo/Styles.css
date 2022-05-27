@@ -1,0 +1,167 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(208, 214, 208);
+}
+
+/* .fhater-container{
+    margin: 0px auto  ;
+    width: 40px;
+} */
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(247, 247, 247);
+}
+
+.Principal-title{
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0px;
+}
+/* 
+.Principal-title :hover{
+    background-color: black;
+    color: white;
+    border: 1.5px solid lightgrey;
+} */
+
+
+.principal-container{
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 0;
+    width: 100%;
+    background-color: rgb(208, 214, 208);
+
+}
+
+
+/*Estilos de maquetacon para la tarjeta de instagram*/
+.Post{
+    box-sizing: border-box;
+    width: 400px;
+    height: 518px;
+    background-color: white;
+    margin: 15px auto 10px auto;
+}
+
+.Post:hover{
+    border-radius: 6.5px;
+    box-shadow: 5px 5px 15px 1px #000000; 
+}
+
+.Post-header{
+    display: flex;
+    width: 100%;
+    height: 40px;
+
+}
+.title-content{
+    display: block;
+    width: 90px;
+    height: 55px;
+}
+
+.Title1{
+    margin: 5px 5px 0px 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.user-name{
+    font-family: 'Montserrat', sans-serif;
+    margin: 1px 5px 4px 1px;
+    font-size: 15px;
+}
+
+.icon-html5{
+    padding: 5px 3px 5px 9px;
+    font-size: 30px;
+    width: 30px;
+    height: 55px;
+}
+
+.planet{
+    width: 30px;
+    height: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 320px;
+    height: 55px;
+    padding: 5px 12px;
+    font-size: 30px; 
+    
+}
+
+.Post-body{
+    width: 100%;
+    height: 325px;
+}
+
+.icon{
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+
+.Post-footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 185px;
+
+}
+
+
+.like-coment{
+    padding: auto;
+    display: flex;
+    width: 100%;
+    height:35px;
+    font-size: 26px;
+}
+
+.fa-regular{
+    margin: 8px 7px 3px 7px;
+}
+
+#bookmark-icon{
+    margin-left:auto;
+}
+
+
+/* .fa-regular{
+    position: relative;
+    
+} */
+
+.text-content{
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    padding:1px 10px 10px 10px;
+
+}
+.text1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+.text2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
